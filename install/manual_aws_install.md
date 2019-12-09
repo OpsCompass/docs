@@ -2,9 +2,9 @@
 
 ## Minimum Requirements: 
 
-1. Admin Access (and ability to create a role) on the Master Account. This will include all accounts for the organization. 
+1. Admin Access (and ability to create a role) on the Master Account in your AWS Organization. This will include all accounts for the organization. 
 
-  * Alternative: Admin Access (and ability to create a role) in the account(s) to be scanned. Limited to the accounts that the Admin role has permissions to. 
+  * Alternative (when you don't have access to the organization): Admin Access (and ability to create a role) in the account(s) to be scanned. Limited to the accounts that the Admin role has permissions to. 
 
 
 ## General Overview:
