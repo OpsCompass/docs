@@ -12,15 +12,15 @@ OpsCompass can begin compliance analysis and drift detection on your company’s
 
 ## Manual Instructions for Adding AWS Organizations: 
 * Set up Cloud Trail and name it: `OpsCompass-Trail`
-  * Note: Cloud Trail should be setup in the `us-east-1 (N. Virginia)` region
+  * **Note: Cloud Trail should be setup in the `us-east-1 (N. Virginia)` region**
 
 * Select `Create an S3 Bucket` and name it: `opscompass-cloudtrail-[########]`
-  * Note: S3 should be setup in the `us-east-1 (N. Virginia)` region
+  * **Note: The S3 Bucket should be setup in the `us-east-1 (N. Virginia)` region**
   
 * Configure CloudWatch
   * Swap out `account cloud ID` using **your company account ID**
   * Event Bus Account ID is the `OpsCompass account: 213916962078`
-  * Note: CloudWatch rules and targets must be setup in the `us-east-1 (N. Virginia)` region 
+  * **Note: CloudWatch rules and targets must be setup in the `us-east-1 (N. Virginia)` region** 
  
 * Set up a Policy to **Deny S3 Bucket Access** using the following:	
 
