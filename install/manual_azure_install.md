@@ -3,7 +3,7 @@
 ## Minimum Requirements: 
 
 1. Azure AD Global Admin to authorize the `opscompass` Enterprise Application (service principal)  
-1. Owner Role or Write Role Permission on Monitored Subscriptions 
+1. Contributor with Policy-Contributor Role (or an Owner Role) on the desired subscription(s).
 
 	* Write Role Assignments 
 	
