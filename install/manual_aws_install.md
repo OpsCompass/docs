@@ -15,7 +15,7 @@ OpsCompass can begin compliance analysis and drift detection on your company’s
   * Note: Cloud Trail should be setup in the `us-east-1 (N. Virginia)` region
 
 * Select `Create an S3 Bucket` and name it: `opscompass-cloudtrail-[########]`
-  * Note: Cloud Trail should be setup in the `us-east-1 (N. Virginia)` region
+  * Note: S3 should be setup in the `us-east-1 (N. Virginia)` region
   
 * Configure CloudWatch
   * Swap out `account cloud ID` using **your company account ID**
