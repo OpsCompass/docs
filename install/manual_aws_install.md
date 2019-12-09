@@ -98,7 +98,7 @@ OpsCompass can begin compliance analysis and drift detection on your company’s
 
 * Click `Add AWS Account` and follow the steps outlined in the green box on the screen.
 
-* Click the 'Create a Role Wizard` link and in the **Permissions** tab Change a Policy from "AdministrativeAccess" to the Managed Policy called "ReadOnlyAccess"
+* Click the 'Create a Role Wizard` link and in the Permissions tab Change a Policy from "AdministrativeAccess" to the Managed Policy called "ReadOnlyAccess"
 
 * Create Role 
 
