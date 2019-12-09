@@ -19,7 +19,7 @@ OpsCompass can begin compliance analysis and drift detection on your company’s
   
 * Configure CloudWatch
   * Swap out `account cloud ID` using **your company account ID**
-  * Event Bus Account ID is the `OpsCompass account: **213916962078**`
+  * Event Bus Account ID is the `OpsCompass account: 213916962078`
   * Note: CloudWatch rules and targets must be setup in the `us-east-1 (N. Virginia)` region 
  
 * Set up a Policy to **Deny S3 Bucket Access** using the following:	
