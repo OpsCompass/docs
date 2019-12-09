@@ -7,10 +7,10 @@
   * Alternative: Admin Access (and ability to create a role) in the account(s) to be scanned. Limited to the accounts that the Admin role has permissions to. 
 
 
-## General Overview
+## General Overview:
 OpsCompass can begin compliance analysis and drift detection on your company’s environment during one half-hour call with only a few basic requirements to get connected. First, a user needs to be created in AWS. Additionally, the user needs to set up Cloud Trail, create an S3 Bucket, add CloudWatch with specific rules and targets.
 
-## Manual Instructions for Adding AWS Organizations 
+## Manual Instructions for Adding AWS Organizations: 
 * Set up Cloud Trail and name it: `OpsCompass-Trail`
   * Note: Cloud Trail should be setup in the `us-east-1 (N. Virginia)` region
 
@@ -91,7 +91,7 @@ OpsCompass can begin compliance analysis and drift detection on your company’s
 } 
 ```
 
-## AWS Setup Process in OpsCompass  
+## AWS Setup Process in OpsCompass:  
 * Click on the link the email from OpsCompass and `Create an Account`
 
 * Click `Add Account` at the bottom of the dashboard in OpsCompass. 
