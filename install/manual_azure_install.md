@@ -11,10 +11,10 @@
 	
 	* Write Policy Assignments 
 
-## General Overview
+## General Overview:
 OpsCompass can begin compliance analysis and drift detection on your company’s environment during one half-hour call with only a few basic requirements to get connected. First, a service principal needs to be created in Azure Active Directory; this part of the setup requires the authorization of a Global Admin on the target tenant. The second, and final requirement to connect OpsCompass is for an owner of the desired subscription(s) to simply add the account to our product to begin monitoring.
 
-## Manual Instructions for Adding Azure Subscriptions 
+## Manual Instructions for Adding Azure Subscriptions: 
 * For each subscription in the tenant, navigate to Access Control (IAM) and add `opscompass` as a Contributor or use Azure CLI.  
 	
 * Set up an IAM Policy to write policy definitions and policy assignments by placing the following json in a file named `opscompass.json`, replacing `${subscriptionId}` with the ID of the subscription you're adding.	
@@ -42,3 +42,7 @@ az policy definition create  -n "OpsCompassPolicy-${subscriptionId}" --params op
 * For each subscription, go to IAM and create an assignment for the new OpsCompassPolicy-${subscriptionId} and apply it to the `opscompass` service principal.  
 
 * Navigate back to [helm.opscompass.com](https://helm.opscompass.com) and “Add Account” (located at the bottom of the dashboard). You will be asked to re-enter the tenant ID just like during initial setup but this time OpsCompass will pull in the subscriptions. 
+
+## Purpose of OpsCompass Enterprise Applications:
+* `opscompass` is the service principal that was authorized by the global admin to call the APIs needed to report information
+* `opscompass-web` is the minimum requirements needed to log users into the app
