@@ -107,3 +107,7 @@ OpsCompass can begin compliance analysis and drift detection on your company’s
 * Paste the Role ARN into the field within OpsCompass and click "Connect"
 
 OpsCompass will begin to scan the environment. 
+
+## Description of OpsCompass Enterprise Applications:
+* `opscompass` is the service principal that was authorized by the global admin to call the APIs needed to report information
+* `opscompass-web` is the minimum requirements needed to log users into the app
