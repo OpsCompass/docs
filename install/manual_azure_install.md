@@ -43,6 +43,6 @@ az policy definition create  -n "OpsCompassPolicy-${subscriptionId}" --params op
 
 * Navigate back to [helm.opscompass.com](https://helm.opscompass.com) and “Add Account” (located at the bottom of the dashboard). You will be asked to re-enter the tenant ID just like during initial setup but this time OpsCompass will pull in the subscriptions. 
 
-## Purpose of OpsCompass Enterprise Applications:
+## Description of OpsCompass Enterprise Applications:
 * `opscompass` is the service principal that was authorized by the global admin to call the APIs needed to report information
 * `opscompass-web` is the minimum requirements needed to log users into the app
