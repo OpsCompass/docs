@@ -1,7 +1,9 @@
 # Lab 02: Compliance Analysis - Know Your Score
 ## Use OpsCompass Core Flows to Identify Compliance Issues, Export Reports, and Remediate or Apply a Policy Exception
 
-1a.) Identify and export all your high severity issues in the "Production" environment.  1b.) Identify and export all your issues with storage accounts and network security groups across all environments.
+1a.) Identify and export all your high severity issues in the "Production" environment.  
+
+1b.) Identify and export all your issues with storage accounts and network security groups across all environments.
   - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/export-compliance-report-all-resources) 
   
 2.) Quickly identify how many ports are open across the entire tenant,  the name of the subscription(s) that they are in, and when the issue was first detected. 
@@ -16,6 +18,7 @@
 
 
 *If you have access to the resources in the cloud connected to OpsCompass, and you understand the impact of the remediation, attempt to complete the following.*
+
 4.) Using the first list you exported in step 1, remediate a non-compliant resource. 
 
   - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/how-do-i-remediate)
