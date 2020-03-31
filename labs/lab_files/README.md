@@ -1,7 +1,7 @@
 # Lab Files
 
-## We use templates from Microsoft Azure Administrator: [*Microsoft Learning*](https://github.com/MicrosoftLearning) repo on GitHub. 
+## We use templates from Microsoft Azure Administrator: [*Microsoft Learning*](https://github.com/MicrosoftLearning), and [*Azure Quick Starts](https://github.com/Azure/azure-quickstart-templates) for our workshops. 
 
-## Another great resource for templates for Azure is [*Azure Quick Starts](https://github.com/Azure/azure-quickstart-templates)
+* deploy-vms.json will deploy 1vm-2nics-2subnets-1vnet
 
 ### AWS, GCP, and Microsoft 365 Labs Coming Soon!
