@@ -1,24 +1,24 @@
 # Lab 02: OpsCompass - Compliance Analysis - Know Your Score
 # Use OpsCompass Core Flows to Identify Compliance Issues, Export Reports, and Remediate or Apply a Policy Exception
 
-
-
-1.) Export two reports: the first report should be a list of all the high severity compliance issues in your specific cloud account, and the second report should be be a list of all the storage accounts with a compliance issue across the entire tenant.
-
+1a.) Identify and export all your high severity issues in the "Production" environment. 
+1b.) Identify and export all your issues with storage accounts and network security groups across all environments.
   - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/export-compliance-report-all-resources) 
   
-2.) Identify how many ports are currently open across the entire tenant, and the name of the subscription(s) that are out of compliance for this issue; a high severity alert directly violating CIS control 9.
+2.) Quickly identify how many ports are open across the entire tenant,  the name of the subscription(s) that they are in, and when the issue was first detected. 
+*Note: A port access is a high severity issue which directly violates CIS control 9*
 
   - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/compliance-by-framework)
    
-
-3.) Prior to this exercise, make sure to take note of your currently compliance score on your resource (found on the dashboard at the bottom of the screen). Using the first list you exported in step 1, remediate a non-compliant resource. 
-
-  - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/how-do-i-remediate)
   
-4.) Using the first list you exported in step 1, add a policy exception, with an expiration date for tomorrow of a non-compliant resource.
-
+3.) Add a policy exception that states "Will address this compliance issue in our next sprint", with an expiration date of tomorrow for a non-compliant resource that you identified in step 1a. Look down in the rule at the bottom of the page to see where this information is logged. 
 
   - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/policy-exception)
 
-5.) Time permitting apply a filter and export a report that contains the resources that are now compliant because of the actions you took in steps 3 and 4. Identify in the logs for the specific resource where OpsCompass tracked that an issue was remediated. What impact did this have on your teams score from prior to step 3? 
+
+*If you have access to the resources in the cloud connected to OpsCompass, and you understand the impact of the remediation, attempt to complete the following.*
+4.) Using the first list you exported in step 1, remediate a non-compliant resource. 
+
+  - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/how-do-i-remediate)
+
+5.) Export a report that contains the resources that are now compliant because of the actions you took in steps 3 and 4. What impact did these actions have on your overall company score? 
