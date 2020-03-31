@@ -1,5 +1,5 @@
 # Lab 01: Setup - Know Your Score
-## Use OpsCompass Core Flows to Add Users, Enable Additional Drift Notifciations, and Create Teams 
+## Use OpsCompass Core Flows to Add Users, Enable Additional Drift Notifications, and Create Teams 
 
 1.) Add another user to OpsCompass, and then have them log in to OpsCompass.
 
