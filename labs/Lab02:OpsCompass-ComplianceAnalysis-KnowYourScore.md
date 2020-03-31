@@ -1,4 +1,4 @@
-# Lab02: OpsCompass - Compliance Analysis - Know Your Score
+# Lab 02: OpsCompass - Compliance Analysis - Know Your Score
 # Use OpsCompass Core Flows to Identify Compliance Issues, Export Reports, and Remediate or Apply a Policy Exception
 
 

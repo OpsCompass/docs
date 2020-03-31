@@ -1,8 +1,8 @@
-# Lab03: OpsCompass - Configuration Drift Detection - Know Your Score
+# Lab 03: OpsCompass - Configuration Drift Detection - Know Your Score
 # Use OpsCompass Core Flows to Identify Configuration Drift, Updates to the Baseline, 
 
 
-1.) Deploy a resource(s) in your connected cloud account from Lab01. If you aren't sure what to deploy you can use a template from our Lab_Files.
+1.) Deploy a resource(s) in your connected cloud account from Lab01. If you aren't sure what to deploy you can use a template from our lab_files.
 
     - [Knowledge Base Assistance]()
 
