@@ -1,5 +1,5 @@
-# Lab 01: OpsCompass - Setup - Know Your Score
-# Use OpsCompass Core Flows to Add Users, Enable Additional Drift Notifciations, Create Teams 
+# Lab 01: Setup - Know Your Score
+## Use OpsCompass Core Flows to Add Users, Enable Additional Drift Notifciations, and Create Teams 
 
 1.) Add another user to OpsCompass, and then have them log in to OpsCompass.
 
@@ -13,8 +13,7 @@
 - [Knowledge Base Assistance: GCP]()
 - [Knowledge Base Assistance: Microsoft 365](https://kb.opscompass.com/knowledge/advanced-o365-scanning)
 
-3.) Enable additional concerns within OpsCompass to enhance configuration drift detection. 
-*Note: User must have role access in OpsCompass to enable*
+3.) Enable additional concerns within OpsCompass to enhance configuration drift detection.  *Note: User must have role access in OpsCompass to enable*
 
 - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/enable-concerns)
 
@@ -24,7 +23,7 @@
 - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/create-team)
 
 
-5.) Assign each user to a different team in OpsCompass and discuss how the dashboard and alerts screens are similar and different.
+5.) Assign each user to a team in OpsCompass and discuss how the dashboard and drift screens are similar and different now that the user is on a team.
 
   - [Knowledge Base Assistance](https://kb.opscompass.com/knowledge/user-to-team)
 
